@@ -17,7 +17,11 @@ html,body{
 }
 
 .btn-primary{
-    margin-top: 25px;
+    margin-top: 1px;
+}
+
+.text{
+    margin-top: 50px;
 }
 
 /* JUMBOTRON END*/
