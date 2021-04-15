@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+/* PAGE BODY */
+html,body{
+    background-color: #23B8CC;
+    font-family: 'Numans', sans-serif;
+}
+/* PAGE BODY END*/
+
+/* JUMBOTRON */
+.jumbotron {
+    border-radius: 25px;
+    display: inline-block;
+    background-color: white;
+    min-height: 90vh;
+    width: 90vw;
+}
+
+.btn-primary{
+    margin-top: 5px;
+}
+
+/* JUMBOTRON END*/
+
+/*Search-jumbo on top of the carousel*/
+.search-jumbo{
+    background-color: rgba(10, 10, 10, 0.5);
+    color: #fafafa;
+    min-height: 30vh;
+    margin-bottom: 25%;
+    margin-top: 1rem;
+    width: auto;
+}
+
+.main-search{
+    display: inline;
+    border: 1px solid transparent;
+    min-width: 200px;
+    border-radius: 25rem;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.carousel-caption{
+    top: 12rem;
+    bottom: auto;
+}
+
+/*Screen adjustments*/
+@media(max-width: 991px){
+    .search-jumbo{
+        min-height: 0;
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px){
+    .main-search{
+        width: 80%!important;
+        min-width: 0!important;
+    }
+    .lead{
+        font-size: medium;
+    }
+}
