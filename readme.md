@@ -2,7 +2,7 @@
 
 Use this to export your consumption (and soon your production) data.
 
-![Screenshot of the index-page](readme-images/index.jpg)
+![Screenshot of the index-page](readme-images/index.png)
 
 ### Existing Features:
 * Export your consumption data to an excel-file.
